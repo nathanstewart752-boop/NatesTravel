@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "trip-2025-04-15-paris.html",
+    "title": "Trip to Paris",
+    "date": "2025-04-15",
+    "lat": 48.8584,
+    "lon": 2.2945
+  },
+  {
+    "slug": "trip-2024-10-01-tokyo.html",
+    "title": "Exploring Tokyo",
+    "date": "2024-10-01",
+    "lat": 35.6895,
+    "lon": 139.6917
+  },
+  {
+    "slug": "trip-2023-06-10-niagara.html",
+    "title": "Niagara Falls Adventure",
+    "date": "2023-06-10",
+    "lat": 43.0962,
+    "lon": -79.0377
+  }
+]

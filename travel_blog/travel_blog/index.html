@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Blog</title>
+  <!-- Include the stylesheet for basic styling -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Travel Blog</h1>
+    <p>Documenting my travels around the world</p>
+  </header>
+  <main>
+    <!-- Latest post section. The script will populate this with the newest post. -->
+    <section id="latest-post" class="latest-post">
+      <h2>Latest Trip</h2>
+      <div id="latest-content">Loading latest post…</div>
+    </section>
+
+    <!-- Map section. A simple image-based map with clickable markers. -->
+    <section id="map-section" class="map-section">
+      <h2>Travel Map</h2>
+      <div id="map-container" class="map-container">
+        <img id="world-map" src="images/world_map.png" alt="World map" class="world-map">
+        <!-- Markers will be injected here by app.js -->
+      </div>
+      <p class="map-note">Click on a marker to view the post for that location.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Travel Blog</p>
+  </footer>
+  <!-- Include the script to load posts and build the map -->
+  <script src="app.js"></script>
+</body>
+</html>
